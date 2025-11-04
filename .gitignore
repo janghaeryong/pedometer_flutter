@@ -1,0 +1,95 @@
+# ---------------------------
+# General / Misc
+# ---------------------------
+*.log
+*.tmp
+*.swp
+*.class
+*.pyc
+.DS_Store
+Thumbs.db
+.svn/
+.history
+.atom/
+.migrate_working_dir/
+migrate_working_dir/
+.idea/
+.vscode/
+
+# ---------------------------
+# Flutter / Dart
+# ---------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+/doc/api/
+/ios/Flutter/.last_build_id
+
+# ---------------------------
+# Android
+# ---------------------------
+/android/.gradle/
+/android/.idea/
+/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/key.properties
+
+# Keystore / Signing keys (절대 커밋 금지)
+*.jks
+*.keystore
+
+# ---------------------------
+# iOS
+# ---------------------------
+# Build output
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeral/
+/ios/ServiceDefinitions.json
+
+
+
+# Xcode
+**/xcuserdata/
+**/DerivedData/
+**/*.moved-aside
+**/*.xccheckout
+**/*.xcscmblueprint
+
+# Pods (Podfile.lock은 커밋 권장)
+ios/Pods/
+
+
+# ---------------------------
+# Environment / Secrets
+# ---------------------------
+.env
+.env.*
+!.env.example
+*.p12
+*.pem
+*.key
+*.crt
+*.der
+*.cer
+
+# Firebase configs (공개 저장소는 무시 권장)
+# google-services.json
+# GoogleService-Info.plist
+
+# ---------------------------
+# Symbol / Obfuscation
+# ---------------------------
+app.*.symbols
+app.*.map.json
+
+*.iml
